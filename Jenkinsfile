@@ -9,6 +9,7 @@ pipeline {
             steps {
                 sh 'echo "Hello world!"'
                 sh 'ruby --version'
+                sh 'echo "set up webhook"'
             }
         }
     }
